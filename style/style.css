@@ -116,8 +116,10 @@ main> section{
 .border-left{
   border-left: 5px solid orange;
   padding-left: 20px;
+  font-size: 0.95rem;
 }
 .card-box{
+  max-width:500px;
   font-size: 0.80rem;
   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
   border-radius: 8px;
@@ -129,6 +131,10 @@ main> section{
 }
 .our-loveable-feature{
   gap: 50px;
+}
+.image-div img{
+ width: 400px;
+  margin-top: 100px;
 }
 
 
@@ -219,6 +225,15 @@ main> section{
 .sponsor-img img{
   width: 100px;
   height: 25px;
+}
+
+.our-loveable-feature{
+  gap: 50px;
+  flex-direction: column;
+}
+.image-div img{
+ width:100%;
+  margin-top: 0;
 }
 }
  
