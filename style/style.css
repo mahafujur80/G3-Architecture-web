@@ -111,6 +111,28 @@ main> section{
   font-weight: 600;
 }
 
+
+/* loveable feature  */
+.border-left{
+  border-left: 5px solid orange;
+  padding-left: 20px;
+}
+.card-box{
+  font-size: 0.80rem;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.card-box h2{
+  font-weight: 600;
+}
+.our-loveable-feature{
+  gap: 50px;
+}
+
+
+
 /* facts section  */
 .facts-head{
   max-width: 500px;
@@ -129,7 +151,24 @@ main> section{
   padding: 15px;
   border-radius: 10px;
 }
-
+/* sponsor section  */
+.sponsor-text{
+  max-width: 500px;;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.sponsor-text h1{
+  margin-bottom: 20px;
+}
+.sponsor-img{
+  justify-content: space-around;
+}
+.sponsor-img img{
+  filter:grayscale(100%);
+  width: 150px;
+  height: 40px;
+}
 
 
 
@@ -159,6 +198,8 @@ main> section{
   margin-top:30px;
 }
 
+
+
 .facts-grid{
   grid-template-columns: repeat(1, 1fr);
   gap: 20px;
@@ -169,6 +210,15 @@ main> section{
 .facts-grid div{
   width: 75%;
   margin:  0 auto;
+}
+
+.sponsor-img{
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.sponsor-img img{
+  width: 100px;
+  height: 25px;
 }
 }
  
@@ -198,5 +248,14 @@ main> section{
 .facts-grid div{
   width: 80%;
   margin:  0 auto;
+}
+
+.sponsor-img{
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.sponsor-img img{
+  width: 120px;
+  height: 30px;
 }
 }
